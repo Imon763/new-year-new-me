@@ -3,75 +3,92 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-/* header section */
+h2{
+    size: 70px;
+}
+
+/*---------------- header section ---------------------*/
+
 .header{
     background-image: url(images/banner/banner3.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 1000px;
-    width: 100%;
+    height: 700px;
     text-align: right;
     color: white;
 }
 .header-content{
-    padding-top: 250px;
+    padding-top: 170px;
     padding-right: 100px;
     font-weight: 700;
 }
 .header-title{
-    font-size: 90px;
+    font-size: 70px;
 }
 .header-description{
     padding-top: 25px;
-    font-size: 20px;
+    font-size: 18px;
 }
-.btn-primary, .input{
+.btn-primary{
     color: #005FAC;
     font-weight: 600;
     font-size: 20px;
     text-align: right;
     border: 0;
-    padding: 20px 35px;
+    padding: 16px 30px;
     margin-top: 35px;
     border-radius: 5px;
 }
-/* main area */
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 7.2%;
-    padding-left: 2.5%;
-    margin-top: 150px; 
+/*-------------- main area ------------------*/
+
+.main-section{
+   display: flex;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+.failure-area-image{
+    width: 60%;
+}
+.failure-area-image img{
+    width: 80%;
+    padding-left: 130px;
 }
 
 #failure-area{
-    margin-top: 380px;
+    margin-right: 60px;
+    margin-left: 50px;
+    margin-top: 90px;
 }
 h2{
-    font-size: 75px;
+    font-size: 65px;
     font-weight: 700;
     color: #151414;
 }
-.details-description{
-    margin-top: 25px;
-    font-size: 20px;
+.details-description, .text{
+    margin-top: 30px;
+    font-size: 16px;
 }
 .icon{
     color: darkorange;
     font-size: 20px;
 }
-/* my plans style */
+
+/*----------- my plans style -----*/
+
 .my-plans{
-    margin-top: 130px;
     text-align: center;
+    margin-bottom: 130px;
+    
 }
-.blog-icon{
-    margin-top: 300px;
+.section-title{ 
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
-.skills-container{
+.skills-content{  
     display: flex;
-    gap: 130px;
+    justify-content: space-evenly;
 }
+
 .skill-title{
     font-size: 30px;
     font-weight: 700;
@@ -82,15 +99,20 @@ h2{
     font-weight: 500;
     margin-top: 25px;
 }
-.future-title{
-    height: 577px;
-    left: 0px;
-    top: 2651.96px;
-    float: left;
-    gap: 100px;
+/* my plan style end */
+/*--------------- call now start------- */
+.size-of-content{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding-left: 120px;
+   padding-right: 120px;
+    
 }
 .call-now{
-    margin: 50px 0;
+    
+    margin-top: 50px;
+    margin-bottom: 150px;
     padding: 50px;
     background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('images/watch.png');
     background-size: cover;
@@ -99,31 +121,38 @@ h2{
     border-radius: 10px;
     color: white;
 }
-/* footer area */
+
+.backgroung_img-story {
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 370px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20%;
+}
+/* --------------footer area------------- */
+
 .footer-content{
-    background-color: black;
-    color: white;
-    height: 577px;
-    width: 100%;
-    padding-top: 130px;
-    padding-left: 230px;
     display: flex;
-}.container{
-    
+    justify-content: space-evenly;
+    background-color: black;
+    height: 550px;
+   
 }
-h3{
-    font-size: 65px;
+.footer-future-section{
+    padding-top: 100px;
+    color: white;
 }
-.text{
-    font-size: 16px;
-    margin-top: 30px;
+.footer-future-section h2{
+    color: white;
+    font-size: 70px;
 }
-.main-footer input{
-    display: block;
-    margin-right: 30px;
-    padding: 10px 15px;
-    border-radius: 5px;
-    border: 1px solid #ffffff;
-    color: #005FAC;
-    background: white;
+.footer-subscribe-section {
+    padding-top: 100px;
+    color: white;  
+}
+.sub-title{
+    padding:12px 10px;
 }
