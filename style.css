@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header section */
+.header{
+    background-image: url(images/banner/banner3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    text-align: right;
+    color: white;
+}
+.header-content{
+    padding-top: 250px;
+    padding-right: 100px;
+    font-weight: 700;
+}
+.header-title{
+    font-size: 90px;
+}
+.header-description{
+    padding-top: 25px;
+    font-size: 20px;
+}
+.btn-primary{
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+    border: 0;
+    padding: 20px 35px;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+/* main area */
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 7.2%;
+    padding-left: 2.5%;
+    margin-top: 150px; 
+}
+.half-width img{
+    width: 100%;
+}
+#failure-area{
+    margin-top: 380px;
+}
+h2{
+    font-size: 75px;
+    font-weight: 700;
+    color: #151414;
+}
+.details-description{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.icon{
+    color: darkorange;
+    font-size: 20px;
+}
+/* my plans style */
+.my-plans{
+    margin-top: 130px;
+    text-align: center;
+}
+.blog-icon{
+    margin-top: 300px;
+}
+.skills-container{
+    display: flex;
+    gap: 130px;
+}
+.skill-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.skill-description{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.future-title{
+    height: 577px;
+    left: 0px;
+    top: 2651.96px;
+    float: left;
+    gap: 100px;
+}
+.call-now{
+    margin: 50px 0;
+    padding: 50px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    border-radius: 10px;
+    color: white;
+}
+/* footer area */
+.footer-content{
+    background-color: black;
+    color: white;
+    height: 577px;
+    width: 100%;
+    padding-top: 130px;
+    padding-left: 230px;
+    display: flex;
+}.container{
+    
+}
+h3{
+    font-size: 65px;
+}
+.text{
+    font-size: 16px;
+    margin-top: 30px;
+}
+.main-footer input{
+    display: block;
+    margin-right: 30px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
